@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    height: 9rem;
+}
+
+.logo{
+    height: 6rem;
+}
+
+.search{
+    padding-left: 5%;
+    height: 4rem;
+    width: 20rem;
+}
