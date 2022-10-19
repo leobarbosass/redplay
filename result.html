@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedFlix</title>
+    <link rel="stylesheet" href="./css/result.css">
+    <script src="https://kit.fontawesome.com/2bd539e459.js" crossorigin="anonymous"></script>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+        <!-- Barra de pesquisa -->
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Pesquisar:</h3>
+                <input type = "text" class = "form-control" placeholder="Pesquise o filme ou série..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class = "search-list" id = "search-list">
+                
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                     <div class = "movie-poster">
+                        <img src = "./img/poster_teste.jpeg" alt = "movie poster">
+                    </div>
+                    <div class = "movie-info">
+                        <h3 class = "movie-title">Clube da luta</h3>
+                        <ul class = "movie-misc-info">
+                            <li class = "year">Ano: 2017</li>
+                            <li class = "rated">Classificação: 18</li>
+                            <li class = "released">Data de lançamento: 05 de maio 2017</li>
+                        </ul>
+                        <p class = "genre"><b>Genêros:</b> suspense, drama</p>
+                        <p class = "writer"><b>Diretor(es):</b> Chuck Palahniuk, David Fincher</p>
+                        <p class = "actors"><b>Atores: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                        <p class = "plot"><b>Sinopse:</b> Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden e se vê morando em uma casa suja depois que seu perfeito apartamento é destruído. A dupla forma um clube com regras rígidas onde homens lutam. A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler.</p>
+                        <p class = "language"><b>Idioma:</b> English</p>
+                        <p class = "awards"><b><i class="fa-solid fa-trophy"></i></b> Nomeado para 1 Oscar</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

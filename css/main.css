@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.main{
+    background: linear-gradient(269.9deg, #000000 29%, rgba(0, 0, 0, 0) 100.51%);
+}
+
+.imgs{
+    z-index: -1;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 25.1vh;
+}
+
