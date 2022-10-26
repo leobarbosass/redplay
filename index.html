@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menuburguer.css">
+    <link rel="stylesheet" href="./css/search.css">
     <script src="./app.js" defer></script>
     <script src="https://kit.fontawesome.com/2bd539e459.js" crossorigin="anonymous"></script>
     <title>RedPlay Streaming</title>
@@ -16,11 +16,12 @@
 <body>
 
     <header>
-        <div class="header">
-            <a href="./result.html">
-            <img src="./img/logo.png" alt="lg" class="logo">
-            </a>
-            <input type="text" name="PESQUISAR" placeholder="PESQUISAR" id="search" class="search">
+        <a href="./result.html">
+            <div class="logo"></div>
+        </a>
+        <div class="search-container">
+            <label class="search-icon" for="search-input"></label>
+            <input type="text" class="search-input" id="search-input" placeholder="Search movies and series"/>
         </div>
     </header>
 
